@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tpQrKq1TMruGUjrhaa1VEeKvZoQO9PYETH5qiltI+TWaejhGm9rM4J59yjBo0SjgP6XaCBSU381CYaTTXxlP1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\CodingKProtocal\\NetProtocol.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

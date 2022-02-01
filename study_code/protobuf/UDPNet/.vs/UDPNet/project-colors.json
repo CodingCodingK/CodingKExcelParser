@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7a7bdfbd-493b-4e4d-a7c0-00b72d375504": {
+      "ProjectGuid": "7a7bdfbd-493b-4e4d-a7c0-00b72d375504",
+      "DisplayName": "UDPNet",
+      "ColorIndex": 0
+    },
+    "3eadfcff-7006-4791-a9ee-50e7f8b92ef9": {
+      "ProjectGuid": "3eadfcff-7006-4791-a9ee-50e7f8b92ef9",
+      "DisplayName": "BasicPB",
+      "ColorIndex": 1
+    },
+    "b9fd66ac-459e-4aaf-9d42-5fb9daf9f3b6": {
+      "ProjectGuid": "b9fd66ac-459e-4aaf-9d42-5fb9daf9f3b6",
+      "DisplayName": "01.Protobuf_Init",
+      "ColorIndex": 2
+    },
+    "bee9ff06-c629-45b5-b70d-ed7c037cc167": {
+      "ProjectGuid": "bee9ff06-c629-45b5-b70d-ed7c037cc167",
+      "DisplayName": "NetProtocol",
+      "ColorIndex": 3
+    },
+    "12fc4c62-3369-4440-8afa-274176e093ac": {
+      "ProjectGuid": "12fc4c62-3369-4440-8afa-274176e093ac",
+      "DisplayName": "UDPServer",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

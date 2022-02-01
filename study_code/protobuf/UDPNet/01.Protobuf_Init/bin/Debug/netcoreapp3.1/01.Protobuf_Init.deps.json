@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "01.Protobuf_Init/1.0.0": {
+        "dependencies": {
+          "PELog": "1.0.1",
+          "protobuf-net": "3.0.62"
+        },
+        "runtime": {
+          "01.Protobuf_Init.dll": {}
+        }
+      },
+      "PELog/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/PELog.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "protobuf-net/3.0.62": {
+        "dependencies": {
+          "protobuf-net.Core": "3.0.62"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/protobuf-net.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.62.765"
+          }
+        }
+      },
+      "protobuf-net.Core/3.0.62": {
+        "runtime": {
+          "lib/netcoreapp3.1/protobuf-net.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.62.765"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "01.Protobuf_Init/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PELog/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EFy1lb6PV8Om8cAPD1epxiIQm2+H8eqEWpmk+LN0djdvzxFfbO9HzkJSoA72u6qNTJberWyVToYdIHfN4O0xQQ==",
+      "path": "pelog/1.0.1",
+      "hashPath": "pelog.1.0.1.nupkg.sha512"
+    },
+    "protobuf-net/3.0.62": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EqdVJU6BXj6SVMcZObrUV5DUThRyvWBn8jKRaTccgdB3NC/DAjNDABz85luptyPMxabWaCBYcWp3S8z9Qtbyyw==",
+      "path": "protobuf-net/3.0.62",
+      "hashPath": "protobuf-net.3.0.62.nupkg.sha512"
+    },
+    "protobuf-net.Core/3.0.62": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UfLUKkMe2VhFvlY1kwm0wzg1rGU0/2NElvKcQweB3TGGD+MBtGQ5sQA9ZFPRjqi0n/fDF2oq0D0oAYFSwVpHTg==",
+      "path": "protobuf-net.core/3.0.62",
+      "hashPath": "protobuf-net.core.3.0.62.nupkg.sha512"
+    }
+  }
+}

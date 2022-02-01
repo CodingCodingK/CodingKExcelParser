@@ -1,0 +1,10 @@
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\bin\Debug\netstandard2.0\NetProtocol.deps.json
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\bin\Debug\netstandard2.0\NetProtocol.dll
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\bin\Debug\netstandard2.0\NetProtocol.pdb
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\obj\Debug\netstandard2.0\NetProtocol.csproj.AssemblyReference.cache
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\obj\Debug\netstandard2.0\NetProtocol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\obj\Debug\netstandard2.0\NetProtocol.AssemblyInfoInputs.cache
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\obj\Debug\netstandard2.0\NetProtocol.AssemblyInfo.cs
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\obj\Debug\netstandard2.0\NetProtocol.csproj.CoreCompileInputs.cache
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\obj\Debug\netstandard2.0\NetProtocol.dll
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\CodingKProtocal\obj\Debug\netstandard2.0\NetProtocol.pdb

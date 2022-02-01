@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UDPServer/1.0.0": {
+        "dependencies": {
+          "NetProtocol": "1.0.0"
+        },
+        "runtime": {
+          "UDPServer.dll": {}
+        }
+      },
+      "NetProtocol/1.0.0": {
+        "runtime": {
+          "NetProtocol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UDPServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetProtocol/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

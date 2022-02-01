@@ -1,0 +1,17 @@
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\bin\Debug\netcoreapp3.1\UDPServer.exe
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\bin\Debug\netcoreapp3.1\UDPServer.deps.json
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\bin\Debug\netcoreapp3.1\UDPServer.runtimeconfig.json
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\bin\Debug\netcoreapp3.1\UDPServer.runtimeconfig.dev.json
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\bin\Debug\netcoreapp3.1\UDPServer.dll
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\bin\Debug\netcoreapp3.1\UDPServer.pdb
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\bin\Debug\netcoreapp3.1\NetProtocol.dll
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\bin\Debug\netcoreapp3.1\NetProtocol.pdb
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.csproj.AssemblyReference.cache
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.AssemblyInfoInputs.cache
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.AssemblyInfo.cs
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.csproj.CoreCompileInputs.cache
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.csproj.CopyComplete
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.dll
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.pdb
+C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPServer\obj\Debug\netcoreapp3.1\UDPServer.genruntimeconfig.cache
