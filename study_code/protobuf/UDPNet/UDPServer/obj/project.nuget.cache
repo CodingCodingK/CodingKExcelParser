@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rc2gOsMLum0P852g7lYxbUsItGhzPVeIvNKS1CNCwokjAwAxNbm5eXpF0oit1lEIbZ9VF5OuNk4lox3E12Tn4g==",
+  "dgSpecHash": "+LMGNKYCNijpP5KqHtnVFWLyApZraebe8UabRhGfFhRGMRJeIjY7LPvwhI/JmCKKP2oDcW4QbB7N5pZkRnGIbQ==",
   "success": true,
   "projectFilePath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPServer\\UDPServer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\protobuf-net\\3.0.62\\protobuf-net.3.0.62.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\protobuf-net.core\\3.0.62\\protobuf-net.core.3.0.62.nupkg.sha512"
+  ],
   "logs": []
 }

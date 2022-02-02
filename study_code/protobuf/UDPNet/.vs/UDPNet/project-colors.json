@@ -25,7 +25,22 @@
       "ProjectGuid": "12fc4c62-3369-4440-8afa-274176e093ac",
       "DisplayName": "UDPServer",
       "ColorIndex": 4
+    },
+    "c745c54f-2f08-4395-9bf5-4263aca20c8c": {
+      "ProjectGuid": "c745c54f-2f08-4395-9bf5-4263aca20c8c",
+      "DisplayName": "UDPClient",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "6a13bc91-4624-483d-95c0-616d50233e5a": {
+      "ProjectGuid": "6a13bc91-4624-483d-95c0-616d50233e5a",
+      "DisplayName": "UDPClient",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }

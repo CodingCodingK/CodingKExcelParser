@@ -110,6 +110,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.0.62, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

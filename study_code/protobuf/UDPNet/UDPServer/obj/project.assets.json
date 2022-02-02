@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "protobuf-net/3.0.62": {
+        "type": "package",
+        "dependencies": {
+          "protobuf-net.Core": "3.0.62"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/protobuf-net.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/protobuf-net.dll": {}
+        }
+      },
+      "protobuf-net.Core/3.0.62": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/protobuf-net.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/protobuf-net.Core.dll": {}
+        }
+      },
       "NetProtocol/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -15,6 +36,48 @@
     }
   },
   "libraries": {
+    "protobuf-net/3.0.62": {
+      "sha512": "EqdVJU6BXj6SVMcZObrUV5DUThRyvWBn8jKRaTccgdB3NC/DAjNDABz85luptyPMxabWaCBYcWp3S8z9Qtbyyw==",
+      "type": "package",
+      "path": "protobuf-net/3.0.62",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/protobuf-net.dll",
+        "lib/net461/protobuf-net.xml",
+        "lib/net5.0/protobuf-net.dll",
+        "lib/net5.0/protobuf-net.xml",
+        "lib/netcoreapp3.1/protobuf-net.dll",
+        "lib/netcoreapp3.1/protobuf-net.xml",
+        "lib/netstandard2.0/protobuf-net.dll",
+        "lib/netstandard2.0/protobuf-net.xml",
+        "lib/netstandard2.1/protobuf-net.dll",
+        "lib/netstandard2.1/protobuf-net.xml",
+        "protobuf-net.3.0.62.nupkg.sha512",
+        "protobuf-net.nuspec"
+      ]
+    },
+    "protobuf-net.Core/3.0.62": {
+      "sha512": "UfLUKkMe2VhFvlY1kwm0wzg1rGU0/2NElvKcQweB3TGGD+MBtGQ5sQA9ZFPRjqi0n/fDF2oq0D0oAYFSwVpHTg==",
+      "type": "package",
+      "path": "protobuf-net.core/3.0.62",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/protobuf-net.Core.dll",
+        "lib/net461/protobuf-net.Core.xml",
+        "lib/net5.0/protobuf-net.Core.dll",
+        "lib/net5.0/protobuf-net.Core.xml",
+        "lib/netcoreapp3.1/protobuf-net.Core.dll",
+        "lib/netcoreapp3.1/protobuf-net.Core.xml",
+        "lib/netstandard2.0/protobuf-net.Core.dll",
+        "lib/netstandard2.0/protobuf-net.Core.xml",
+        "lib/netstandard2.1/protobuf-net.Core.dll",
+        "lib/netstandard2.1/protobuf-net.Core.xml",
+        "protobuf-net.core.3.0.62.nupkg.sha512",
+        "protobuf-net.core.nuspec"
+      ]
+    },
     "NetProtocol/1.0.0": {
       "type": "project",
       "path": "../CodingKProtocal/NetProtocol.csproj",
@@ -23,7 +86,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "NetProtocol >= 1.0.0"
+      "NetProtocol >= 1.0.0",
+      "protobuf-net >= 3.0.62"
     ]
   },
   "packageFolders": {
@@ -75,6 +139,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "protobuf-net": {
+            "target": "Package",
+            "version": "[3.0.62, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

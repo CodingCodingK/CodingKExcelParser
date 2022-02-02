@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9qx5oH1VqCe69KQVjOha8AgU6Ch/VVG0mJ8oeztvlLy0MGeVcbe2V4BcwHDLXUFfJyUt4NTNe/fQaFaM2svcGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPClient\\UDPClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\pelog\\1.0.1\\pelog.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
