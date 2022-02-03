@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = 02.UDPClient
+build_property.ProjectDir = C:\Github\CodingKExcelParser\study_code\protobuf\UDPNet\UDPClient\

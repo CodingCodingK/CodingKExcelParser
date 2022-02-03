@@ -13,7 +13,7 @@
     },
     "b9fd66ac-459e-4aaf-9d42-5fb9daf9f3b6": {
       "ProjectGuid": "b9fd66ac-459e-4aaf-9d42-5fb9daf9f3b6",
-      "DisplayName": "01.Protobuf_Init",
+      "DisplayName": "01.Protobuf_normalUse",
       "ColorIndex": 2
     },
     "bee9ff06-c629-45b5-b70d-ed7c037cc167": {
@@ -23,7 +23,7 @@
     },
     "12fc4c62-3369-4440-8afa-274176e093ac": {
       "ProjectGuid": "12fc4c62-3369-4440-8afa-274176e093ac",
-      "DisplayName": "UDPServer",
+      "DisplayName": "02.UDPServer",
       "ColorIndex": 4
     },
     "c745c54f-2f08-4395-9bf5-4263aca20c8c": {
@@ -38,7 +38,7 @@
     },
     "6a13bc91-4624-483d-95c0-616d50233e5a": {
       "ProjectGuid": "6a13bc91-4624-483d-95c0-616d50233e5a",
-      "DisplayName": "UDPClient",
+      "DisplayName": "02.UDPClient",
       "ColorIndex": 6
     }
   },

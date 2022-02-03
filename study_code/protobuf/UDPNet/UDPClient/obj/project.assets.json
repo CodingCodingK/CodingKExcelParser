@@ -78,9 +78,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPClient\\UDPClient.csproj",
-      "projectName": "UDPClient",
-      "projectPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPClient\\UDPClient.csproj",
+      "projectUniqueName": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPClient\\02.UDPClient.csproj",
+      "projectName": "02.UDPClient",
+      "projectPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPClient\\02.UDPClient.csproj",
       "packagesPath": "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\",
       "outputPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPClient\\obj\\",
       "projectStyle": "PackageReference",

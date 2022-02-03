@@ -98,9 +98,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPServer\\UDPServer.csproj",
-      "projectName": "UDPServer",
-      "projectPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPServer\\UDPServer.csproj",
+      "projectUniqueName": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPServer\\02.UDPServer.csproj",
+      "projectName": "02.UDPServer",
+      "projectPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPServer\\02.UDPServer.csproj",
       "packagesPath": "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\",
       "outputPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\UDPServer\\obj\\",
       "projectStyle": "PackageReference",

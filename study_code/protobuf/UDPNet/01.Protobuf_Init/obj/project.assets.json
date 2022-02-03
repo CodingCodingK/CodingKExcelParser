@@ -105,9 +105,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\01.Protobuf_Init\\01.Protobuf_Init.csproj",
-      "projectName": "01.Protobuf_Init",
-      "projectPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\01.Protobuf_Init\\01.Protobuf_Init.csproj",
+      "projectUniqueName": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\01.Protobuf_Init\\01.Protobuf_normalUse.csproj",
+      "projectName": "01.Protobuf_normalUse",
+      "projectPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\01.Protobuf_Init\\01.Protobuf_normalUse.csproj",
       "packagesPath": "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\",
       "outputPath": "C:\\Github\\CodingKExcelParser\\study_code\\protobuf\\UDPNet\\01.Protobuf_Init\\obj\\",
       "projectStyle": "PackageReference",

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Protobuf_Init", "01.Protobuf_Init\01.Protobuf_Init.csproj", "{B9FD66AC-459E-4AAF-9D42-5FB9DAF9F3B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Protobuf_normalUse", "01.Protobuf_Init\01.Protobuf_normalUse.csproj", "{B9FD66AC-459E-4AAF-9D42-5FB9DAF9F3B6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetProtocol", "CodingKProtocal\NetProtocol.csproj", "{BEE9FF06-C629-45B5-B70D-ED7C037CC167}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UDPServer", "UDPServer\UDPServer.csproj", "{12FC4C62-3369-4440-8AFA-274176E093AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.UDPServer", "UDPServer\02.UDPServer.csproj", "{12FC4C62-3369-4440-8AFA-274176E093AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPClient", "UDPClient\UDPClient.csproj", "{6A13BC91-4624-483D-95C0-616D50233E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.UDPClient", "UDPClient\02.UDPClient.csproj", "{6A13BC91-4624-483D-95C0-616D50233E5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
