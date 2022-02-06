@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "1rxBr4La4OJjqsz2dYieFoqrHpdRzGtA3JdVgo+5y/Tb9EfvPSbYiSx9ycjOITCLsi0B2zPCyIt3/aALVtCXAg==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\CodingKExcelParser\\my_wpf_tool\\CodingKExcelParser\\CodingKExcelParser\\CodingKExcelParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\reactiveproperty\\8.0.3\\reactiveproperty.8.0.3.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\reactiveproperty.core\\8.0.3\\reactiveproperty.core.8.0.3.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\reactiveproperty.wpf\\8.0.3\\reactiveproperty.wpf.8.0.3.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\windowsapicodepack-core\\1.1.1\\windowsapicodepack-core.1.1.1.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“net5.0-windows7.0”还原包“WindowsAPICodePack-Core 1.1.1”。此包可能与项目不完全兼容。",
+      "libraryId": "WindowsAPICodePack-Core",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“net5.0-windows7.0”还原包“WindowsAPICodePack-Shell 1.1.1”。此包可能与项目不完全兼容。",
+      "libraryId": "WindowsAPICodePack-Shell",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -8,7 +8,8 @@ namespace UDPServer
         {
             Console.WriteLine("Server Starting...");
 
-            ServerRoot.Instance.Init();
+            //ServerRoot.Instance.Init();
+            Proto_ServerRoot.Instance.Init();
 
             Console.ReadKey();
         }

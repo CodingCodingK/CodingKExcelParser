@@ -20,7 +20,7 @@ namespace UDPServer
                     userData = new UserData
                     {
                         uid = 7,
-                        name = "Plane",
+                        name = "CodingK",
                         level = 17,
                         exp = 27
                     }
@@ -28,6 +28,31 @@ namespace UDPServer
             };
 
             ServerRoot.Instance.SendMsg(CMD.LogicLogin, body, pt);
+        }
+    }
+
+    public class Proto_LoginHandler
+    {
+        public void ReqPBLogin(LogicProtocol.Body reqBody, IPEndPoint pt)
+        {
+            LogicProtocol.ReqLogicLogin req = reqBody.reqLogicLogin;
+            Console.WriteLine("Client:{0} ReqLogin,Acct:{1} Pass:{2}", pt.ToString(), req.Acct, req.Pass);
+
+            LogicProtocol.Body body = new LogicProtocol.Body
+            {
+                rspLogicLogin = new LogicProtocol.RspLogicLogin
+                {
+                    userData = new LogicProtocol.UserData
+                    {
+                        Uid = 7,
+                        Name = "CodingK",
+                        Level = 17,
+                        Exp = 27
+                    }
+                }
+            };
+
+            Proto_ServerRoot.Instance.SendMsg(LogicProtocol.Cmd.LogicLogin, body, pt);
         }
     }
 }

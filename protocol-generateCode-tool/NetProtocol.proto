@@ -1,0 +1,80 @@
+syntax = "proto2";
+
+package LogicProtocol;
+
+//请求登录
+message ReqLogicLogin {
+    required string acct = 1;//账号
+    required string pass = 2;//密码
+}
+message RspLogicLogin{
+    required UserData userData = 1;//用户信息
+}
+
+message UserData{
+    required int32 uid = 1;//区服唯一ID
+    required string name = 2;//名字
+    required uint32 level = 3;//等级
+    required int32 exp = 4;//当前经验值
+}
+
+message ReqBagInfo{
+    //只要CMD就可以拉取数据
+}
+
+message RspBagInfo{
+    repeated BagItem itemLst = 1;
+}
+message BagItem{
+    required int32 id = 1;//物品id
+    required int32 type = 2;//物品类型
+    required string des = 3;//物品描述
+}
+
+//=================错误码=================//
+enum Error {
+    //通用数据库错误
+    db_data_error = 1;
+
+    acct_data_error = 2001;//贴数据异常
+    team_wait_enter = 2002;//排队等待进入队伍
+
+    bag_data_error = 2003;//背包数据异常
+}
+
+//=================协议号=================//
+enum CMD {
+    LogicLogin = 1;
+    BagInfo = 2;
+}
+
+//=================数据包=================//
+message Pkg{
+    required Head head = 1;
+    optional Body body = 2;
+}
+message Head{
+    required CMD cmd = 1;
+    required int32 seq = 2;
+    required int32 error = 3;
+}
+
+message Body{
+    optional ReqLogicLogin reqLogicLogin = 1;
+    optional RspLogicLogin rspLogicLogin = 2;//CMD = LogicLogin
+    optional ReqBagInfo reqBagInfo = 3;
+    optional RspBagInfo rspBagInfo = 4;//CMD = BagInfo
+    optional XXXOOO xo = 5;
+    optional XXXOOO1 xo1 = 6;
+    optional XXXOOO2 xo2 = 7;
+}
+
+message XXXOOO{
+    required string name = 1;
+}
+message XXXOOO1{
+    required int32 id = 1;
+}
+message XXXOOO2{
+    required string name = 1;
+}

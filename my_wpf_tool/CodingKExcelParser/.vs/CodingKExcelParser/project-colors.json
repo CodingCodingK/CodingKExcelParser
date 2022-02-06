@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8ebb9331-17f3-4dad-8cfb-74a1cdfa98d5": {
+      "ProjectGuid": "8ebb9331-17f3-4dad-8cfb-74a1cdfa98d5",
+      "DisplayName": "CodingKExcelParser",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "e8170468-6eaa-45c1-a9bd-143f5b1602dc": {
+      "ProjectGuid": "e8170468-6eaa-45c1-a9bd-143f5b1602dc",
+      "DisplayName": "CodingK_WpfMvvmBase",
+      "ColorIndex": 1
+    },
+    "171fbddc-a7bf-4acc-b72c-f13fbc60585c": {
+      "ProjectGuid": "171fbddc-a7bf-4acc-b72c-f13fbc60585c",
+      "DisplayName": "CodingK_WpfMvvmBase",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

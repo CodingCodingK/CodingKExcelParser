@@ -1,0 +1,30 @@
+syntax = "proto2";
+
+package HOKProtocol;
+
+message OpKey{
+        required int32 opIndex = 1;
+        required KeyType keyType = 2;
+        required MoveKey moveKey = 3;
+        required SkillKey skillKey = 4;
+}
+
+message MoveKey{
+        required int32 keyId = 1;
+        required long x = 2;
+        required long z = 3;
+}
+
+message SkillKey{
+        required int32 skillId = 1;
+        required long x_val = 2;
+        required long z_val = 3;
+}
+
+enum KeyType{
+        None;
+        Move;
+        Skill;
+
+}
+

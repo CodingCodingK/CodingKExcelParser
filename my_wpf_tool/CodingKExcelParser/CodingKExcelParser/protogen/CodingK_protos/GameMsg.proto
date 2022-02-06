@@ -1,0 +1,255 @@
+syntax = "proto2";
+
+package HOKProtocol;
+
+message GameMsg :{
+        required CMD cmd = 1;
+        required ErrorCode err = 2;
+        required bool isEmpty = 3;
+		required ReqLogin reqLogin = 4;
+		required RspLogin rspLogin = 5;
+		required ReqMatch reqMatch = 6;
+		required RspMatch rspMatch = 7;
+        required NotifyConfirm notifyConfirm = 8;
+        required SendConfirm sendConfirm = 9;
+        required NotifySelect notifySelect = 10;
+        required SendSelect sendSelect = 11;
+        required NotifyLoadRes notifyLoadRes = 12;
+        required SendLoadPrg sendLoadPrg = 13;
+        required NotifyLoadPrg notifyLoadPrg = 14;
+        required ReqBattleStart reqBattleStart = 15;
+        required RspBattleStart rspBattleStart = 16;
+        required ReqBattleEnd reqBattleEnd = 17;
+        required RspBattleEnd rspBattleEnd = 18;
+        required SendChat sendChat = 19;
+        required NotifyChat notifyChat = 20;
+        required SendOpKey sendOpKey = 21;
+        required NotifyOpKey notifyOpKey = 22;
+        required ReqPing reqPing = 23;
+        required RspPing rspPing = 24;
+}
+
+message ReqLogin{
+        required string acct
+        required string pass
+}
+
+message RspLogin{
+        required PlayerData playerData = 1;
+}
+
+message ReqRename{
+        required string name
+}
+
+message RspRename{
+        required string name
+}
+
+message ReqMatch{
+        required PvpEnum pvpEnum = 1;
+}
+
+message RspMatch{
+        required int32 preTime = 1;
+}
+
+message NotifyConfirm{
+        required int32 roomId = 1;
+        required bool dismiss = 2;
+        required ConfirmData[] confirmArr = 3;
+}
+
+message ConfirmData{
+        required int32 iconIndex = 1;
+        required bool confirmDone = 2;
+}
+
+message SendConfirm{
+        required int32 roomId = 1;
+}
+
+message NotifySelect{
+	    required SelectData selectData = 1;
+}
+
+message SelectData{
+	    required int32 selectId = 1;
+	    required bool selectDone = 2;
+}
+
+message SendSelect{
+	    required int32 roomId = 1;
+	    required int32 heroId = 2;
+}
+
+message NotifyLoadRes{
+        required int32 mapId = 1;
+        repeated BattleHeroData heroList = 2;
+        required int32 posIndex = 3;
+}
+
+message SendLoadPrg{
+        required int32 roomId = 1;
+        required int32 percent = 2;
+}
+
+message NotifyLoadPrg{
+        repeated int percentList = 1;
+}
+
+message ReqBattleStart{
+        required int32 roomId = 1;
+}
+
+message RspBattleStart{
+}
+
+message ReqBattleEnd{
+	    required int32 roomId = 1;
+}
+
+message RspBattleEnd{
+}
+
+message SendOpKey{
+        required int32 roomId = 1;
+        required OpKey opKey = 2;
+}
+
+message NotifyOpKey{
+        required int32 frameId = 1;
+        repeated OpKey keyList = 2;
+}
+
+message SendChat{
+	    required int32 roomId = 1;
+	    required string chatMsg = 2;
+}
+
+message NotifyChat{
+	    required string chatMsg = 1;
+}
+
+message ReqPing{
+	    required uint32 pingId = 1;
+	    required ulong sendTime = 2;
+	    required ulong backTime = 3;
+}
+
+message RspPing{
+	    required uint32 pingId = 1;
+}
+
+message PlayerData{
+        required int32 id
+        required string name
+        required int32 level
+        required int32 exp
+        required int32 coin
+        required int32 diamond
+        required int32 ticket
+        repeated HeroSelectData heroSelectData = 8;
+}
+
+message HeroSelectData{
+        required int32 heroID
+}
+
+message BattleHeroData{
+        required string userName
+        required int32 heroId
+}
+
+enum PvpEnum{
+        None = 0;
+        _1V1 = 1;
+        _2V2 = 2;
+        _5V5 = 3;
+
+}
+
+enum ErrorCode{
+        None = 0;
+
+        /// <summary>
+        /// 服务端数据异常
+        /// </summary>
+        ServerDataError;
+        ClientDataError;
+
+        /// <summary>
+        /// 更新数据库出错
+        /// </summary>
+        UpdateDBError;
+
+        // 登录相关
+
+        /// <summary>
+        /// 账号已登陆
+        /// </summary>
+        AccountIsOnline;
+
+        /// <summary>
+        /// 密码错误
+        /// </summary>
+        WrongPass;
+
+        /// <summary>
+        /// 名字已存在
+        /// </summary>
+        NameExisted;
+
+        LackLevel;
+        LackCoin;
+        LackCrystal;
+        LackDiamond;
+        LackPower;
+
+        TaskError;
+
+}
+
+enum CMD{
+        None = 0;
+        // 登录相关
+        ReqLogin = 101;
+        RspLogin = 102;
+
+        // 匹配
+        ReqMatch = 103;
+        RspMatch = 104;
+
+        // 确认
+        NotifyConfirm = 105;
+        SendConfirm = 106;
+
+        // 选择英雄
+        NotifySelect = 107;
+        SendSelect = 108;
+
+        // 加载
+        NotifyLoadRes = 109;
+        SendLoadPrg = 110;
+        NotifyLoadPrg = 111;
+
+        // 战斗
+        ReqBattleStart = 112;
+        RspBattleStart = 113;
+        ReqBattleEnd = 114;
+        RspBattleEnd = 115;
+
+        //PING
+        ReqPing = 1;
+        RspPing = 2;
+
+        // 聊天
+        SendChat = 201;
+        NotifyChat = 202;
+
+        // 操作码
+        SendOpKey = 1000;
+        NotifyOpKey = 1001;
+
+}
+

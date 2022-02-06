@@ -22,4 +22,19 @@ namespace UDPClient
             }
         }
     }
+
+    public class Proto_BagHandler
+    {
+        public void HandlePBBagData(LogicProtocol.RspBagInfo rsp)
+        {
+            List<LogicProtocol.BagItem> itemLst = rsp.itemLsts;
+            for (int i = 0; i < itemLst.Count; i++)
+            {
+                Console.WriteLine("id:" + itemLst[i].Id);
+                Console.WriteLine("type:" + itemLst[i].Type);
+                Console.WriteLine("des:" + itemLst[i].Des);
+                Console.WriteLine("-----------------");
+            }
+        }
+    }
 }

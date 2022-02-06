@@ -9,21 +9,21 @@ namespace UDPClient
         {
             Console.WriteLine("Client Start...");
             PELog.InitSettings();
-            ClientRoot.Instance.Init();
-            //PBGameRoot.Instance.Init();
+            //ClientRoot.Instance.Init();
+            Proto_ClientRoot.Instance.Init();
 
             while (true)
             {
                 string ipt = Console.ReadLine();
                 if (ipt == "login")
                 {
-                    ClientRoot.Instance.ReqLogin();
-                    //PBGameRoot.Instance.ReqPBLogin();
+                    //ClientRoot.Instance.ReqLogin();
+                    Proto_ClientRoot.Instance.ReqPBLogin();
                 }
                 else if (ipt == "bag")
                 {
-                    ClientRoot.Instance.ReqBag();
-                    //PBGameRoot.Instance.ReqPBBag();
+                    //ClientRoot.Instance.ReqBag();
+                    Proto_ClientRoot.Instance.ReqPBBag();
                 }
                 else
                 {
